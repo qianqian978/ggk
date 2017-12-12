@@ -1,0 +1,50 @@
+@charset "utf-8";
+/*css reset*/
+*{-webkit-tap-highlight-color:transparent;}
+body{ min-width:320px;font-family:"\5FAE\8F6F\96C5\9ED1", Helvetica;font-size:13px; color:#666; -webkit-text-size-adjust: none;-webkit-user-select: none; line-height:150%;background-color: #f0f0f0;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+ul,ol{list-style:none}
+a,a:visited,a:hover{text-decoration:none;color:#666}
+a:active{color:#333;}
+img{vertical-align:middle;border:0;}
+button,input,select,textarea{vertical-align:middle;outline:none;resize:none;font-family:"\5FAE\8F6F\96C5\9ED1", Helvetica;-webkit-appearance: none;}/*UESFTL-4064 颜鹏 20150427 取消IPHONE默认样式*/
+table{border-collapse:collapse;border-spacing:0}
+i,em{font-style:normal;}
+
+
+
+/*刮刮卡*/
+.pop_btn .gbtnB,.pop_btn a.gbtnB,.pop_btn a.gbtnB:visited,.pop_btn .gbtnB a,.pop_btn .gbtnB a:visited{ color:#fff;}
+
+.g_box,.g_box1{padding:190px 0 5px 0; position:relative;background: url(../../image/ggback.jpg) no-repeat;background-size: 100% auto; }
+.g_box .layer,.g_box1 .layer{ width:270px; border:#fff solid 3px; margin:0px auto; height:130px; border-radius:5px; background:#fff39f; text-align:center;}
+.g_box1 .layer{border:#7ec5c7 solid 3px;width:270px;height:130px;}
+.TextBox{ overflow:hidden; width:85%;  margin:10px 20px auto; }
+.TextBox .introText{ color:#fff; border-bottom:1px #fff  dashed; font-size:16px; line-height: 22px; padding-bottom: 6px; margin-bottom:10px;}
+.TextBox .vText{margin-bottom:5px;}
+.TextBox .hText{ color:#ffffff; margin: 0 0 5px 0px;  font-size:12px; line-height:15px; }
+.TextBox .hText .orange{ text-decoration:underline;color:#ff6600;}
+.shareBtn{  height:30px; margin-top: 10px; width: 100%; display: -webkit-box;}
+.shareBtn a {width:103px; height:30px; box-flex:1;-moz-box-flex:1;-webkit-box-flex:1;-ms-box-flex:1;text-align: center;display: block;}
+.shareBtn a img{height: 30px;}
+.shareBtn .tl { text-align: left; }
+.shareBtn .tr{text-align:  right;}
+.shareBtn .center{height: 30px; margin: 0 auto;}
+.TextBox .bline{ border-bottom: 1px dashed #fff; margin: 10px 0;}
+
+.g_box .gbtnR {border:1px #e2460f solid;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;text-shadow: 0px 1px 1px rgba(255, 255, 255, .5);height:35px; line-height:35px;display:inline-block; text-align:center; width:50%; margin-top:55px; color:#ffffff;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#dd410e),color-stop(.95, #b21c08), to(#960203)); 
+background-image:-webkit-linear-gradient(top, #dd410e,#b21c08 35%, #960203);
+}
+.textBox{ overflow:hidden;padding-left:10px; margin: 15px auto; width:90%; position:relative;  background:#fff; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; box-shadow:0 0 3px #666 inset; }
+.textBox .title{ position:absolute; color:#000;left:3px; line-height:30px;}
+.textBox .inputText{ background-color: transparent;  font-size: 15px;  width: 100%;  border: 0;  /*line-height: 30px;*/  margin: 8px 0;}
+.textBox .ml15{ margin-left:15px;}
+@media (min-width:321px) and (max-width:1080px){
+	.g_box{padding:250px 0 5px 0}
+	.g_box1{padding:230px 0 5px 0}
+.TextBox{ overflow:hidden; width:85%;  margin:24px auto; }
+.TextBox .hText{ color:#ffffff; margin: 0 0 5px 0px;  font-size:12px; }
+	}
+
+
